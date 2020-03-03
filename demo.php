@@ -74,7 +74,7 @@ if(!isset($_SESSION['ok'])){
 
 
 
- $con=mysqli_connect('127.0.0.1','root','root','liuyanban');
+ $con=mysqli_connect('59.110.214.57','root','200529','liuyanban');
 //设置每页参数
 $a=empty($_GET['a'])?1:$_GET['a'];
 //设置每页条数

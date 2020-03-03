@@ -3,7 +3,7 @@
 $liuyan=empty($_POST['liuyan'])?"":$_POST['liuyan'];
 // var_dump($liuyan);die;
 //连接数据库
-$con=mysqli_connect('127.0.0.1','root','root','liuyanban');
+$con=mysqli_connect('59.110.214.57','root','200529','liuyanban');
 // var_dump($con);die;
 //添加sql语句
 $sql="insert into women (liuyan) values('$liuyan')";
